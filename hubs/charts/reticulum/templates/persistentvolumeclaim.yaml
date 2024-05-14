@@ -19,7 +19,6 @@ spec:
   storageClassName: {{ .Release.Name }}-gcp-storage-class
   accessModes:
     - ReadWriteMany
-  storageClassName: {{ .Release.Name }}-filestore-storage-class
   resources:
     requests:
       storage: {{ .Values.global.gcp.persistent.storage }}
