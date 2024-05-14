@@ -7,5 +7,5 @@ metadata:
   labels:
     {{- include "haproxy.labels" . | nindent 4 }}
 data:
-  5349: {{ .Release.Namespace }}/coturn:5349
+  "5349": {{ .Release.Namespace }}/coturn:5349
 {{- end}}
