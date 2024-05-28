@@ -16,7 +16,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: {{ include "reticulum.fullname" . }}-gcp-claim
 spec:
-  storageClassName: {{ .Release.Name }}-gcp-storage-class
+  storageClassName: {{ .Release.Name }}-filestore-storage-class
   accessModes:
     - ReadWriteMany
   resources:
