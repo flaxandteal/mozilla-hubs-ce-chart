@@ -8,7 +8,8 @@ metadata:
     annotations:
         {{- toYaml . | nindent 4 }}
     {{- end }}
-spec: {{ include "reticulum.serviceAccountName" . }}
+spec: 
+    serviceName: ret
     replicas: {{ .Values.replicaCount}}
     selector:
         matchLabels:
