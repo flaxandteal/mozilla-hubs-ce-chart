@@ -9,7 +9,7 @@ metadata:
         {{- toYaml . | nindent 4 }}
     {{- end }}
 spec: 
-    {{- if not .Values.autscaling.enabled }}
+    {{- if not .Values.autoscaling.enabled }}
     replicas: {{ .Values.replicaCount}}
     {{- end }}
     selector:
