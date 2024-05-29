@@ -3,7 +3,25 @@ entries:
   hubs-ce:
   - apiVersion: v2
     appVersion: 1.0.0-ce
-    created: "2024-05-29T11:29:50.764769109+01:00"
+    created: "2024-05-29T11:34:09.616798821+01:00"
+    dependencies:
+    - condition: pgsql.enabled
+      name: pgsql
+      repository: ""
+    description: A Helm chart for setting up Mozilla Hubs on Kubernetes
+    digest: 8e509bd1748a3ddf30fe083e3759d57e0f82e2679946c198eb4e284a309af15c
+    icon: https://hubs.mozilla.com/favicon.ico
+    maintainers:
+    - email: alex.griggs@gmail.com
+      name: Alex Griggs
+    name: hubs-ce
+    type: application
+    urls:
+    - hubs-ce-1.3.9-beta.tgz
+    version: 1.3.9-beta
+  - apiVersion: v2
+    appVersion: 1.0.0-ce
+    created: "2024-05-29T11:34:09.614360281+01:00"
     dependencies:
     - condition: pgsql.enabled
       name: pgsql
@@ -21,7 +39,7 @@ entries:
     version: 1.3.8-beta
   - apiVersion: v2
     appVersion: 1.0.0-ce
-    created: "2024-05-29T11:29:50.762118406+01:00"
+    created: "2024-05-29T11:34:09.611832036+01:00"
     dependencies:
     - condition: pgsql.enabled
       name: pgsql
@@ -39,7 +57,7 @@ entries:
     version: 1.3.7-beta
   - apiVersion: v2
     appVersion: 1.0.0-ce
-    created: "2024-05-29T11:29:50.758023763+01:00"
+    created: "2024-05-29T11:34:09.608771586+01:00"
     dependencies:
     - condition: pgsql.enabled
       name: pgsql
@@ -57,7 +75,7 @@ entries:
     version: 1.3.6-beta
   - apiVersion: v2
     appVersion: 1.0.0-ce
-    created: "2024-05-29T11:29:50.753551181+01:00"
+    created: "2024-05-29T11:34:09.606711006+01:00"
     dependencies:
     - condition: pgsql.enabled
       name: pgsql
@@ -75,7 +93,7 @@ entries:
     version: 1.3.5-beta
   - apiVersion: v2
     appVersion: 1.0.0-ce
-    created: "2024-05-29T11:29:50.749723028+01:00"
+    created: "2024-05-29T11:34:09.6033967+01:00"
     dependencies:
     - condition: pgsql.enabled
       name: pgsql
@@ -93,7 +111,7 @@ entries:
     version: 1.3.4-beta
   - apiVersion: v2
     appVersion: 1.0.0-ce
-    created: "2024-05-29T11:29:50.745511182+01:00"
+    created: "2024-05-29T11:34:09.599321572+01:00"
     dependencies:
     - condition: pgsql.enabled
       name: pgsql
@@ -111,7 +129,7 @@ entries:
     version: 1.3.3-beta
   - apiVersion: v2
     appVersion: 1.0.0-ce
-    created: "2024-05-29T11:29:50.743184218+01:00"
+    created: "2024-05-29T11:34:09.595788578+01:00"
     dependencies:
     - condition: pgsql.enabled
       name: pgsql
@@ -129,7 +147,7 @@ entries:
     version: 1.3.2-beta
   - apiVersion: v2
     appVersion: 1.0.0-ce
-    created: "2024-05-29T11:29:50.740435333+01:00"
+    created: "2024-05-29T11:34:09.591481413+01:00"
     dependencies:
     - condition: pgsql.enabled
       name: pgsql
@@ -147,7 +165,7 @@ entries:
     version: 1.3.1-beta
   - apiVersion: v2
     appVersion: 1.0.0-ce
-    created: "2024-05-29T11:29:50.7361047+01:00"
+    created: "2024-05-29T11:34:09.589190142+01:00"
     dependencies:
     - condition: pgsql.enabled
       name: pgsql
@@ -163,4 +181,4 @@ entries:
     urls:
     - hubs-ce-1.3.0-beta.tgz
     version: 1.3.0-beta
-generated: "2024-05-29T11:29:50.733237762+01:00"
+generated: "2024-05-29T11:34:09.586787385+01:00"

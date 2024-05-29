@@ -63,15 +63,6 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
-      volumes:
-        - name: postgresql-data
-          {{- if .Values.global.aws.efs.enabled }}
-          persistentVolumeClaim:
-            claimName: {{ include "pgsql.fullname" . }}-efs-claim
-          {{- else }}
-          hostPath:
-            path: /tmp/pgsql_data
-          {{- end }}
   volumeClaimTemplates:
   - metadata:
       name: postgresql-data
