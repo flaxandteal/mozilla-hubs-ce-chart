@@ -35,7 +35,7 @@ env:
 
 volumeMounts:
   - name: postgresql-data
-    mountPath: /var/lib/postgresql
+    mountPath: /var/lib/postgresql/hubsdata
 
 volumes:
   - name: postgresql-data
