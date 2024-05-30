@@ -11,6 +11,8 @@ image:
   tag: "stable-latest"
 
 env:
+  - name: auth_type
+    value: scram-sha-256
   - name: MAX_CLIENT_CONN
     value: "10000"
   - name: DB_USER
