@@ -129,7 +129,7 @@ configs:
     # Get the following from render_helm.sh
     DB_USER: "{run render_helm.sh}"
     DB_PASS: "{run render_helm.sh}"
-    postgresql-password: "set the same as DB_PASS"
+    postgres-password: "set the same as DB_PASS"
     DB_NAME: "{run render_helm.sh}"
     DB_HOST: "{run render_helm.sh}"
     DB_HOST_T: "{run render_helm.sh}"
